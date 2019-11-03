@@ -336,6 +336,8 @@ body {
 }
 
 .p-reviews2 {
+    display: block;
+    float: left;
     padding: 16px 20px 0 27px;
     margin: 0;
     color: #989898;
@@ -416,8 +418,8 @@ body {
     border-radius: 2px;
 }
 
-.ul-sec-buy {
-    list-style-type: none;
+.ol-sec-buy {
+    list-style-position: inside;
     padding: 0 0 43px 20px;
     margin: 16px 0;
 }
@@ -512,8 +514,8 @@ body {
 
 .main-footer-title {
     display: block;
-    padding: 0 0 10px 0;
-    margin: 0;
+    padding: 0;
+    margin: 0 0 10px 0;
     text-align: center;
     font-size: 30px;
     font-family: "Arial";
@@ -533,10 +535,12 @@ body {
     float: left;
 }
 
+/*
 .field-form {
     border: none;
     padding: 0;
 }
+*/
 
 .txt {
     width: 500px;
@@ -548,6 +552,7 @@ body {
     font-family: "Arial";
     line-height: 24px;
     border-radius: 5px;
+    outline: 0 !important;
 }
 
 .txtarea {
@@ -589,7 +594,8 @@ body {
     float: left;
 }
 
-.p-main-footer {
+.span-main-footer {
+    display: block;
     margin: 0 0 15px 0;
     padding: 0;
 }
@@ -619,6 +625,7 @@ body {
 }
 
 .icon-main-footer {
+    display: block;
     margin: 40px 0 0 0;
 }
 
